@@ -1,0 +1,38 @@
+C:\Users\SARWAN HAMID\PaaS>git push heroku master
+    Counting objects: 9, done.
+    Delta compression using up to 4 threads.
+    Compressing objects: 100% (7/7), done.
+    Writing objects: 100% (9/9), 920 bytes | 0 bytes/s, done.
+    Total 9 (delta 1), reused 0 (delta 0)
+    remote: Compressing source files... done.
+    remote: Building source:
+    remote:
+    remote: -----> PHP app detected
+    remote:
+    remote:  !     WARNING: No 'composer.json' found.
+    remote:        Using 'index.php' to declare app type as PHP is considered legacy
+    remote:        functionality and may lead to unexpected behavior.
+    remote:
+    remote: -----> Bootstrapping...
+    remote: -----> Installing platform packages...
+    remote:        NOTICE: No runtime required in composer.lock; using PHP ^5.5.17
+    remote:        - apache (2.4.20)
+    remote:        - nginx (1.8.1)
+    remote:        - php (5.6.31)
+    remote: -----> Installing dependencies...
+    remote:        Composer version 1.5.2 2017-09-11 16:59:25
+    remote: -----> Preparing runtime environment...
+    remote:        NOTICE: No Procfile, using 'web: heroku-php-apache2'.
+    remote: -----> Checking for additional extensions to install...
+    remote: -----> Discovering process types
+    remote:        Procfile declares types -> web
+    remote:
+    remote: -----> Compressing...
+    remote:        Done: 13.7M
+    remote: -----> Launching...
+    remote:        Released v3
+    remote:        https://secret-lowlands-20499.herokuapp.com/ deployed to Heroku
+    remote:
+    remote: Verifying deploy... done.
+    To https://git.heroku.com/secret-lowlands-20499.git
+     * [new branch]      master -> master
