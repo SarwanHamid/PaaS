@@ -1,0 +1,5 @@
+C:\Users\SARWAN HAMID>cd PaaS
+
+C:\Users\SARWAN HAMID\PaaS>heroku create
+    Creating app... done, secret-lowlands-20499
+    https://secret-lowlands-20499.herokuapp.com/ | https://git.heroku.com/secret-lowlands-20499.git
